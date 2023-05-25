@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+  }
+.container{
+    width:100%;
+    background-color: rgb(16, 170, 16);
+}
+table{
+    border-collapse: collapse;
+    table-layout: auto;
+    margin:0px auto;
+    width:100%;
+}
+form{
+    padding-left:0.5%;
+}
+input{
+    height:6%;
+    font-size: large;
+}
+::placeholder{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(225, 235, 225);
+    font-size:2.28rem;
+    padding:2px;
+
+}
+th{
+    border-bottom: 2px solid black;
+    padding:5px;
+    font-size:x-large;
+    background-color:rgb(16, 170, 16);
+    color:rgb(225, 235, 225);
+}
+td{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: larger;
+    background-color: antiquewhite;
+}
+input[type=submit]{
+    width:80%;
+    display:inline-block;
+    font-size: larger;
+    color: rgb(54, 53, 53);
+    border:1px solid rgb(14, 2, 80);
+    font-weight: bold;
+    border-radius: 100px;
+    background-color:rgb(205, 203, 203);
+}
+a{
+    width:100%;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(54, 53, 53);
+    border:1px solid rgb(14, 2, 80);
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:rgb(205, 203, 203);
+
+}
+a:hover,button:hover,input[type=submit]:hover{
+    background-color: rgb(255, 149, 0);
+    color: rgba(0, 0, 0, 0.89) ;
+}

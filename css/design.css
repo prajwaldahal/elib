@@ -1,0 +1,33 @@
+div{
+    display: inline;
+    border: 1px solid blue;
+    width:max-content;
+    height: max-content;
+    border-radius: 5px;
+}
+table{
+    border-collapse: collapse;
+    width: 20px;
+    height: 20px;
+}
+td{
+    border: 1px solid blue;
+}
+.fill{
+    background-color: blue;
+}
+.down{
+border-bottom: none;
+}
+.right{
+border-right: none;
+}
+.left{
+border-left: none;
+}
+.top{
+border-top:none;
+}
+.all{
+border:none;
+}

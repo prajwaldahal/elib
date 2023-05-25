@@ -1,0 +1,49 @@
+body{
+    background: url("https://s1.best-wallpaper.net/wallpaper/m/1712/Library-many-books-path_m.webp");
+    padding-top:100px;
+}
+#container{
+    height:80%;
+    width:45%;
+    background-color:rgb(0, 0, 0);
+    border-radius: 30px;	
+    padding-top:10px;
+    margin:auto;	
+}
+input[type=password],input[type=text],input[type=email],input[type=file]{
+    display:block;
+    width:70%;
+    height:10%;
+    padding:2%;
+    margin:3% auto;
+    font-size:large;
+    border-radius: 3%;
+}
+p{
+    font-size:15px;
+    color:red; 
+    text-align: center;   
+}
+input{
+    padding:1%;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 235, 225);
+}
+input[type=submit]{
+    display:block;
+    width:25%;
+    height:10%;
+    margin: 2px auto;
+}
+input::value{
+    font-weight: bolder;
+} 
+input[type=submit]::value{
+    font-size:15px;
+    font-weight: bolder;
+}
+input::placeholder{
+    text-align: center;
+}

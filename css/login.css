@@ -1,0 +1,85 @@
+Body {  
+    font-family: Calibri, Helvetica, sans-serif;  
+}
+input{
+    font-size: large;
+}
+#outer{
+  display: flex;
+  height:100%;
+  align-items: center;
+  justify-items: center;
+}
+#container{
+  height:100%;
+  width:50%;
+  background-color: rgb(80, 80, 80);
+  margin:0px auto;	
+}
+#container2{
+  height:100%;
+  width:50%;
+  background-color:rgb(255 255 255);
+}
+img+div{
+  height:100%;
+  width:100%;
+  margin:0px auto;
+}
+#container2 h1{
+  color:rgb(4, 75, 25);
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  margin:8px auto;
+  padding:10px;
+}
+#container h1{
+  color:rgb(229, 248, 234);
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  margin:8px auto;
+  padding:10px;
+}
+input[type=password],input[type=text],p{
+  display:block;
+  width:50%;
+  height:7%;
+  margin: 2px auto;
+}
+a{
+  color:rgb(251, 251, 251);
+  text-decoration: none;
+  padding:10px;
+}
+a:hover{
+  color:yellow;
+}
+a:active{
+  color:blue
+}
+input[type=submit]{
+  display:block;
+  width:25%;
+  height:7%;
+  margin: 2px auto;
+}
+img{
+  display: block;
+  width: 20%;
+  height: 20%;
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+::{
+  text-align: center;
+  padding-bottom: 2px;
+}
+p{
+  text-align: center;
+  width:50%;
+  height:7%;
+  margin: 0px auto;
+  color:red; 
+}

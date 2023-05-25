@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+.bookcontainer{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    background-color: rgb(16, 170, 16);
+    align-items: center;
+    flex-wrap: wrap;
+}
+p{
+    font-size:15px;
+    color:red; 
+    text-align: center;   
+}
+form{
+    display: flex;
+    width: 100%;
+    height:60%;
+    flex-direction: column;
+    align-items: center;
+}
+input[type=text],input[type=Number]{
+    width: 80%;
+    padding: 20px;
+    margin: 1%;
+    font-size: medium;
+}
+input[type=file]{
+    width: 80%;
+    padding: 10px;
+    font-size: medium;
+}
+h1{
+    text-align: center;
+    color:rgb(225, 235, 225);
+}
+img{
+    width:50px;
+    border: 1px solid black;
+}
+span {
+    align-self: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+}
+input[type=submit]{
+    align-self:center;
+    padding:10px;
+    width:30%;
+    height:15%;
+    font-size: large;
+}
+input[type=submit]:hover{
+    background-color:aqua;
+}
+label{
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: larger;
+}
+::placeholder{
+    text-align: center;
+}
